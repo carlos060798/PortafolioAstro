@@ -1,16 +1,12 @@
 import { motion } from "framer-motion";
 
-import feature1 from "../assets/images/feature1.jpg";
-import feature2 from "../assets/images/feature2.jpg";
-import feature3 from "../assets/images/feature3.jpg";
-import feature4 from "../assets/images/feature4.jpg";
-import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
+
 
 export const Features1 = () => {
   return (
     <section
       className="w-full bg-customDarkBg2 mt-20 mb-8 sm:mt-16 sm:mb-16 xl:mt-0  xl:m pt-[2rem]  md:pt-[12vw] lg:pt-0"
-      id="features"
+      id="skills"
     >
       <motion.div
         initial={{ opacity: 0 }}
@@ -19,64 +15,46 @@ export const Features1 = () => {
         transition={{ duration: 0.5, delay: 0.2 }}
       >
         <div className="flex flex-wrap items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 mx-auto md:pl-4 xl:pr-16 xl:pl-16">
-          <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
-            <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-              <span className="custom-block-subtitle">Embrace Innovation</span>
-              <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-                Unlike any tool you used before
-              </h2>
-              <p className="mb-10 text-customGrayText leading-loose">
-                Discover a new level of data analysis with our innovative and
-                user-friendly platform. Transform your business needs with actionable
-                insights.
-              </p>
-              <ul className="mb-6 text-white">
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>Real-time data visualization</span>
-                </li>
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>Advanced predictive analytics</span>
-                </li>
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>Seamless integration with APIs</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="w-3/4 mx-auto lg:w-1/2 flex flex-wrap lg:-mx-4 sm:pr-8 lg:pt-10 justify-center lg:pl-4 xl:px-8">
-            <div className="mb-8 lg:mb-0 w-full sm:w-1/2 px-2 lg:px-0">
-              <div className="mb-4 py-3 pl-3 pr-2 rounded">
-                <img
-                  src={feature1}
-                  alt="f1"
-                  className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
-                />
+          <div class="container mx-auto">
+            <h2 class="text-5xl  text-center text-white font-semibold mb-6">Mis Habilidades</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              <div class="bg-white p-4 rounded-lg shadow-md flex items-center">
+              <i class="fab fa-html5 text-2xl text-orange-500 mr-4"></i> 
+                <span class="text-lg font-semibold">Html</span>
               </div>
-              <div className="py-3 pl-3 pr-2 rounded ">
-                <img
-                  src={feature2}
-                  alt="f2"
-                  className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
-                />
+
+              <div class="bg-white p-4 rounded-lg shadow-md flex items-center">
+              <i class="fab fa-css3-alt text-2xl text-blue-500 mr-4"></i>
+                <span class="text-lg font-semibold">Css</span>
               </div>
-            </div>
-            <div className="w-1/2 lg:mt-20  pt-12 lg:pt-0 px-2 hidden sm:inline-block">
-              <div className="mb-4 py-3 pl-3 pr-2 rounded-lg ">
-                <img
-                  src={feature3}
-                  alt="f3"
-                  className="rounded-xl  custom-border-gray"
-                />
+
+              <div class="bg-white p-4 rounded-lg shadow-md flex items-center">
+              <i class="fab fa-bootstrap text-2xl text-purple-500 mr-4"></i>
+                <span class="text-lg font-semibold">Bootstrap</span>
               </div>
-              <div className="py-3 pl-3 pr-2 rounded-lg ">
-                <img
-                  src={feature4}
-                  alt="f4"
-                  className="rounded-xl  custom-border-gray"
-                />
+              <div class="bg-white p-4 rounded-lg shadow-md flex items-center">
+              <i class="fab fa-js text-2xl text-yellow-500 mr-4"></i>
+                <span class="text-lg font-semibold">Javascript</span>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-md flex items-center">
+              <i class="fab fa-js text-2xl text-blue-500 mr-4"></i>
+                <span class="text-lg font-semibold">TypeScript</span>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-md flex items-center">
+              <i class="fab fa-react text-2xl text-blue-500 mr-4"></i>
+                <span class="text-lg font-semibold">Reac js</span>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-md flex items-center">
+              <i class="fab fa-node text-2xl text-green-500 mr-4"></i>
+                <span class="text-lg font-semibold">Node js</span>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-md flex items-center">
+              <i class="fas fa-database text-2xl text-blue-500 mr-4"></i>
+                <span class="text-lg font-semibold">Mysql</span>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-md flex items-center">
+              <i class="fas fa-database text-2xl text-green-500 mr-4"></i>
+                <span class="text-lg font-semibold">MongoDb</span>
               </div>
             </div>
           </div>

@@ -5,9 +5,9 @@ import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { GithubIcon } from "../assets/icons/GithubIcon";
 
 const navbarLinks = [
-  { label: "Home", href: "#home", ariaLabel: "Home" },
-  { label: "Features", href: "#features", ariaLabel: "Features" },
-  { label: "Pricing", href: "#pricing", ariaLabel: "Pricing" },
+  { label: "Perfil", href: "#perfil", ariaLabel: "Perfil" },
+  { label: "Skills", href: "#skills", ariaLabel: "Skills" },
+  { label: "Proyectos", href: "#proyectos", ariaLabel: "Proyectos" },
   { label: "Feedback", href: "#feedback", ariaLabel: "Feedback" },
   { label: "FAQ", href: "#FAQ", ariaLabel: "FAQ" },
 ];
@@ -24,7 +24,7 @@ export const Navbar = () => {
           transition={{ duration: 0.3 }}
           exit={{ opacity: 0 }}
         >
-          <a className="navbar-link" href="#home" aria-label="Home">
+          <a className="navbar-link" href="#perfil" aria-label="Perfil">
             <div className="flex justify-start items-center grow basis-0">
               <div className="text-white mr-2 text-6xl">
                 <TailcastLogo />
