@@ -1,7 +1,5 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-
-import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { GithubIcon } from "../assets/icons/GithubIcon";
 
 const navbarLinks = [
@@ -25,11 +23,12 @@ export const Navbar = () => {
         >
           <a className="navbar-link" href="#perfil" aria-label="Perfil">
             <div className="flex justify-start items-center grow basis-0">
-              <div className="text-white mr-2 text-6xl">
-                <TailcastLogo />
+              <div className="text-white mr-2 text-3xl">
+              <i className="fas fa-code fill-customPrimary" style={{ width: "30px", height: "30px" }}></i>
+
               </div>
-              <div className="text-white font-['Inter'] font-bold text-xl">
-                Tailcast
+              <div className="text-white font-['Inter'] font-bold text-3xl">
+                <h1>Portafolio</h1>
               </div>
             </div>
           </a>
