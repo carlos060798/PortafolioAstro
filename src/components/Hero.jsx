@@ -18,7 +18,7 @@ export const Hero = () => {
           transition={{ duration: 0.5 }}
         >
           <div className="text-customSecondary text-sm sm:text-base  mb-6 sm:mt-32 mt-16  font-bold">
-           <h2> Carlos Danilo Angarita</h2> 
+           <h2 className="text-3xl"> Carlos Danilo Angarita </h2> 
           </div>
         </motion.div>
         <motion.div

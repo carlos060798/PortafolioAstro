@@ -16,8 +16,10 @@ export const Skills = () => {
       >
         <div className="flex flex-wrap items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 mx-auto md:pl-4 xl:pr-16 xl:pl-16">
           <div class="container mx-auto">
-            <h2 class="text-5xl  text-center text-white font-semibold mb-6">Mis Habilidades</h2>
+          <h2 class="text-5xl  text-center text-white font-semibold mb-6">Mis Habilidades</h2>
+
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
               <div class="bg-white p-4 rounded-lg shadow-md flex items-center">
               <i class="fab fa-html5 text-2xl text-orange-500 mr-4"></i> 
                 <span class="text-lg font-semibold">Html</span>
