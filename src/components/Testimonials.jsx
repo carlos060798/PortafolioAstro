@@ -57,7 +57,7 @@ const DataProjects = [
     description:
       "proyecto gestor de tareas full stack de reac, bootstrap ,express y node js con base de datos mongo db y autenticacion con jwt",
     UrlGit: "https://github.com/carlos060798/GESTORDETASK",
-    UrlWeb: "https://www.youtube.com/watch?v=-XhSKeeLuJU",
+    UrlWeb: "https://front-todo-vert.vercel.app",
   },
   {
     id: 8,
