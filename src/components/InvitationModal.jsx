@@ -31,7 +31,7 @@ export const InvitationModal = ({ setIsOpen }) => {
             <div className="flex relative">
               <div className="w-1/2 hidden lg:inline">
                 <h2 className="mt-6 mb-2 text-5xl font-bold tracking-normal text-white">
-                  Developer web
+                  Desarrollador Junior
                 </h2>
                 <h2 className="text-5xl font-bold tracking-normal text-customSecondary">
                   Full Stack Mern
@@ -44,6 +44,14 @@ export const InvitationModal = ({ setIsOpen }) => {
                   </li>
                   <li className="mb-4 flex">
                     <CheckArrowIcon />
+                    <span>Java</span>
+                  </li>
+                  <li className="mb-4 flex">
+                    <CheckArrowIcon />
+                    <span>Bootstrap</span>
+                  </li>
+                  <li className="mb-4 flex">
+                    <CheckArrowIcon />
                     <span>Reac js</span>
                   </li>
                   <li className="mb-4 flex">
@@ -53,6 +61,10 @@ export const InvitationModal = ({ setIsOpen }) => {
                   <li className="mb-4 flex">
                     <CheckArrowIcon />
                     <span>Express js</span>
+                  </li>
+                  <li className="mb-4 flex">
+                    <CheckArrowIcon />
+                    <span>Mendix</span>
                   </li>
                   <li className="mb-4 flex">
                     <CheckArrowIcon />
@@ -72,8 +84,7 @@ export const InvitationModal = ({ setIsOpen }) => {
                 </h3>
                 <div className="flex flex-wrap -m-2">
                 <p className="text-white text-sm leading-8 mb-6 text-justify">
-  Desarrollador Web Full Stack con habilidades sólidas en JavaScript, ReactJS, MongoDB, MySQL, Git, HTML, Bootstrap y Node.js. Mi trasfondo como abogado ha enriquecido mi capacidad analítica y resolutiva, mientras que mis habilidades para gestionar el tiempo son destacadas. He creado landing pages y sistemas web personalizados.
-</p>
+                Desarrollador Web Full Stack con sólidas habilidades en una amplia gama de tecnologías, enfocado en entregar soluciones innovadoras y orientadas a resultados. Su experiencia abarca desde el desarrollo frontend con JavaScript, ReactJS y Bootstrap hasta el backend con MongoDB, MySQL y Node.js. Además, cuenta con experiencia en el manejo de Java y TypeScript, lo que amplía mi capacidad para abordar proyectos más diversos y complejos en el ámbito empresarial. También tiene experiencia en el uso de Git para el control de versiones</p>
 
                   <button
                     className="py-3 px-6 w-full text-white font-semibold rounded-lg shadow-lg focus:ring focus:ring-indigo-300 bg-customPrimary hover:bg-[#7274f3] transition ease-in-out duration-200"

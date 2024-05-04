@@ -4,6 +4,7 @@ import { GithubIcon } from "../assets/icons/GithubIcon";
 
 const navbarLinks = [
   { label: "Perfil", href: "#perfil", ariaLabel: "Perfil" },
+  { label: "Experiencia", href: "#experiencia", ariaLabel: "Experiencia" },
   { label: "Skills", href: "#skills", ariaLabel: "Skills" },
   { label: "Proyectos", href: "#proyectos", ariaLabel: "Proyectos" },
   { label: "Formacion", href: "#formacion", ariaLabel: "Formacion" },
@@ -23,12 +24,12 @@ export const Navbar = () => {
         >
           <a className="navbar-link" href="#perfil" aria-label="Perfil">
             <div className="flex justify-start items-center grow basis-0">
-              <div className="text-white mr-2 text-3xl">
-              <i className="fas fa-code fill-customPrimary" style={{ width: "30px", height: "30px" }}></i>
-
+              <div className="text-white mt-4 mr-2 text-3xl">
+              <i className="fas fa-laptop-code fill-customPrimary" style={{ width: "60px", height: "60px" }}></i>
+             
               </div>
               <div className="text-white font-['Inter'] font-bold text-3xl">
-                <h1>Portafolio</h1>
+                
               </div>
             </div>
           </a>

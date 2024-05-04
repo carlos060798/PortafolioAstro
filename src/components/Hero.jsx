@@ -27,7 +27,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.05 }}
         >
           <div className="mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-20 md:px-24 lg:px-24">
-          Developer Web
+          Desarrollador  Junior
           </div>
         </motion.div>
         <motion.div
@@ -36,7 +36,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48 ">
-          apasionado desarrollador web con un amor por crear experiencias digitales atractivas e innovadoras
+          Developer experto en MERN con experiencia en Desarrollo No-Code utilizando Mendix
           </div>
         </motion.div>
         <motion.div
