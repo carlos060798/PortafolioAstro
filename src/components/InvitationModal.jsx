@@ -2,15 +2,9 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 import { CloseIcon } from "../assets/icons/CloseIcon";
-import cv from "../docs/cv.pdf";
 
 export const InvitationModal = ({ setIsOpen }) => {
-  const descargarPDF = () => {
-    const link = document.createElement("a");
-    link.href = cv;
-    link.download = "archivo.pdf";
-    link.click();
-  };
+  
 
   return (
     <AnimatePresence>
@@ -86,13 +80,7 @@ export const InvitationModal = ({ setIsOpen }) => {
                 <p className="text-white text-sm leading-8 mb-6 text-justify">
                 Desarrollador Web Full Stack con sólidas habilidades en una amplia gama de tecnologías, enfocado en entregar soluciones innovadoras y orientadas a resultados. Su experiencia abarca desde el desarrollo frontend con JavaScript, ReactJS y Bootstrap hasta el backend con MongoDB, MySQL y Node.js. Además, cuenta con experiencia en el manejo de Java y TypeScript, lo que amplía mi capacidad para abordar proyectos más diversos y complejos en el ámbito empresarial. También tiene experiencia en el uso de Git para el control de versiones</p>
 
-                  <button
-                    className="py-3 px-6 w-full text-white font-semibold rounded-lg shadow-lg focus:ring focus:ring-indigo-300 bg-customPrimary hover:bg-[#7274f3] transition ease-in-out duration-200"
-                    type="button"
-                    onClick={descargarPDF}
-                  >
-                    Descargar CV
-                  </button>
+                 
                 </div>
               </div>
               <div
