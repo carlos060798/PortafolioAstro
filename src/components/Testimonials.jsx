@@ -108,7 +108,7 @@ export const Proyectos = () => {
             <h3>Mis Proyectos</h3>
           </div>
 
-          <div className="custom-block-subtitle text-center mb-6">
+          <div className="custom-block-subtitle text-center mb-6 text-white">
             <p>
               Hola, ¡bienvenido a la sección de mis proyectos! Aquí te presento
               algunos de los proyectos en los que he estado trabajando
