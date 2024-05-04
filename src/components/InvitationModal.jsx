@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 import { CloseIcon } from "../assets/icons/CloseIcon";
-import cv from "../docs/CV.pdf";
+import cv from "../docs/cv.pdf";
 
 export const InvitationModal = ({ setIsOpen }) => {
   const descargarPDF = () => {
