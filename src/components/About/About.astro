@@ -1,0 +1,30 @@
+---
+import SocialIcons from '../SocialIcons.astro';
+import Title from '../atoms/Title.astro';
+import "./about.css"
+
+
+---
+
+<section id="about" class="about">
+	<div class="about__container">
+		<img
+			class="about__img"
+			src="/img/profile.jpg"
+			alt="Foto de perfil de Jhon Doe"
+		/>
+
+		<div class="about__content">
+			<Title margin="1rem" contenido="Sobre mí" />
+			<p class="about__text">
+				Soy Carlos Danilo Angarita García, Desarrollador Full Stack con experiencia en la pila MERN y bases de datos como PostgreSQL y MongoDB. He trabajado en roles clave en desarrollo de aplicaciones tanto en Java como en entornos no-code como Mendix. Mi trayectoria incluye roles en TI Negocios Inteligentes y Grupo Ahora SAS. Poseo formación como Tecnólogo en Análisis y Desarrollo de Sistemas de Información (ADSI) y completé un Bootcamp Full Stack Developer en Ada School. Disfruto colaborar en equipos multidisciplinarios para crear soluciones innovadoras.
+			</p>
+			<SocialIcons width="25" height="25"/>
+		</div>
+	</div>
+	<style>
+		.about__text {
+		text-align: justify;
+	}
+	</style>
+</section>

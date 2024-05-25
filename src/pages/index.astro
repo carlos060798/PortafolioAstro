@@ -1,25 +1,21 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import { Hero } from "../components/Hero.jsx";
-import { Navbar } from "../components/Navbar.jsx";
-import { Skills } from "../components/Skills.jsx";
-import { Experiencia } from "../components/Experiencia.jsx";
-import { Proyectos } from "../components/Testimonials.jsx";
-import { Estudios } from "../components/Estudios.jsx";
-import { Footer } from "../components/Footer.jsx";
-import { ScrollUpButton } from "../components/ScrollUpButton";
-import "../styles/Theme.css";
-import "../styles/Diagonals.css";
-
+import About from '../components/About/About.astro';
+import { mainMenu } from '../components/data/menuData';
+import Footer from '../components/Footer/Footer.astro';
+import Header from '../components/header/Header.astro';
+import Hero from '../components/hero/Hero.astro';
+import Portfolio from '../components/Portfolio.astro';
+import Skills from '../components/skills/Skills.astro';
+import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout title="Mi Portafolio">
-  <Navbar client:load />
-  <Hero client:load />
-  <Skills client:load />
-  <Experiencia client:load />
-  <Proyectos client:load />
-  <Estudios client:load />
-  <Footer />
-  <ScrollUpButton client:load />
+<Layout title="Carlos Garcia | Fullstack Developer">
+	<Header origin={mainMenu} />
+	<main class="self-center w-full">
+		<Hero />
+		<About />
+		<Skills />
+		<Portfolio />
+	</main>
+	<Footer/>
 </Layout>
